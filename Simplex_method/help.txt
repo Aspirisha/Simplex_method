@@ -1,0 +1,19 @@
+Linear programming problem solver, ver 1.0.
+This program solves linear programming problems using different methods 
+(currently implemented simplex method and boundary points busting method). 
+Below you can enter input data: parameter of minimization c (to find 
+optimal x for min<c, x>) and linear constraints. To finish inputting 
+constraints, just press enter one more time (input blank line). 
+It's assumed that all variables in restrictions are not less than 0. 
+Variable name must consist of english letters and arabic numerals.
+First letter of variable name must be letter. Each line must be finished 
+with semicolon. Multiplication signs must be avoided. 
+WARNING: input is case-sensitive! 
+Here is example of correct input: 
+
+Insert vector c:
+>> 1 1
+Insert linear constraints:
+>> 3.14 - y1 <= 0;
+>> 2x + y1 >= 6;
+>> y1 - 2.4x = -6;
